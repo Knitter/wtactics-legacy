@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+<input type="text" id="message" />
+<input type="button" value="Send" onclick="sendMessage()" />
+
+<pre id="output">
+</pre>
+
+<script>
+//var url = "ws://echo.websocket.org";
+var url = "ws://50.57.161.126:8003/";
+var ws = new MozWebSocket(url);
+
+var msg_box = document.getElementById('message');
+msg_box.onkeypress = function(e) {
+	if (e.keyCode == 13) {
+		sendMessage();
+		return false;
+	}
+}
+var output = {
+	add : function (msg) {
+		 document.getElementById('output').innerHTML = document.getElementById('output').innerHTML + msg + '\n'
+	},
+	clear : function () {
+		document.getElementById('output').innerHTML = '';
+	}
+}
+
+ws.onopen = function() {
+    output.add('Websocket connected!');
+};
+
+ws.onmessage = function (evt) { 
+        var msg = evt.data; 
+        output.add('RECEIVED: ' + msg);
+};
+
+ws.onclose = function() { output.add('Websocket closed!');};
+                
+function sendMessage() {
+        var msg = msg_box.value;
+		ws.send(msg);
+		output.add('SENT: ' + msg);
+		msg_box.value = "";
+}
+
+</script>
+
+
+</body>
+</html> 

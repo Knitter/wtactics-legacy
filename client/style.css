@@ -1,0 +1,68 @@
+html, body, div
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+body
+{
+	background-color: rgb(15,15,15);
+}
+
+table 
+{
+	border: 1;
+	width: 100%;
+	height: 100%;
+}
+
+
+td 
+{
+	border-radius: 15px;
+	text-align: center;
+	color: gray;
+}
+
+
+img.deck {
+	height: 105px;
+	width: 76px;
+	draggable: false; 
+}
+	
+img.card {
+	height: 105px;
+	width: 76px;
+	margin: 7px;
+	transition: 300ms;
+	-moz-transition: 300ms;
+	-webkit-transition: 300ms;
+}
+
+img.card:hover {
+	height: 126px;
+	width: 91px;
+	margin: 0px;
+}
+
+img.big_card {
+	height: 420px;
+	width: 304px;
+	position: absolute;
+	draggable: false;
+	top: 50%;	
+	left: 50%;
+	margin-top: -210px;
+	margin-left: -152px;
+}
+
+
+img.flipped {
+	transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+
+
