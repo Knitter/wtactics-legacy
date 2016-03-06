@@ -1,4 +1,4 @@
-require 'server'
+require './server'
 
 $all_games = DRbObject.new nil, 'druby://localhost:9002'
 
@@ -76,7 +76,7 @@ class LobbyHandler
 end
 
 
-server = Server.new("0.0.0.0", 8002, LobbyHandler) 
+server = Server.new("0.0.0.0", 8082, LobbyHandler) 
 server.start
 
 
