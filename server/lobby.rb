@@ -4,8 +4,6 @@ $all_games = DRbObject.new nil, 'druby://localhost:9002'
 
 class LobbyHandler
 
-	
-
 	def initialize(server, player)
 		@server = server
 		@player = player
