@@ -74,7 +74,7 @@ class LobbyHandler
 end
 
 
-server = Server.new("0.0.0.0", 8082, LobbyHandler) 
+server = Server.new("0.0.0.0", 8002, LobbyHandler) 
 server.start
 
 

@@ -341,7 +341,7 @@ class GameHandler
 	end
 end
 	
-server = Server.new("0.0.0.0", 8083, GameDispatcher) 
+server = Server.new("0.0.0.0", 8003, GameDispatcher) 
 server.start
 
 
