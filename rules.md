@@ -57,7 +57,7 @@ When a ranged troop *is attacked* in melee, it will do only half damage (rounded
 
 ### Tactics
 
-The hope is that the "front / back" and "melee / ranged" principles play well together and offer lots of tactical combinations to explore.
+The hope is that the "front / back" and "melee / ranged" principles play well together, offering lots of tactical combinations to explore.
 For example, ranged troops in the back row could bring down front row troops without taking harm.
 However, skirmish/flying/sharpshooter troops could bring down the frail archers easely.
 But in both cases, it would be wise to have some tough troops on the front row to protect the others.
@@ -126,7 +126,7 @@ Example:
 > It's Alice's turn to attack Bob.
 > 
 > Alice first attack with her two 1/1 archers, targetting Bob's 2/2 Orc and kills it.
-> Then, she uses the spell `"Cowardice (can only be used if an enemy troop died this turn) - the target troop flees the battlefield. Put it back in the owner's hand." and targets the front row Troll blocker.`
+> Then, she uses the spell `"Cowardice - the target troop flees the battlefield. Put it back in the owner's hand." and targets the front row Troll blocker.`
 > Perfect, now Bob's front row is empty, Alice can use her remaing two soldiers to attack Bob's shamans in his back row.
 > Alice attacks with her 2/2 soldier the 3/1 Shaman. Since the Shaman is a ranged attacker engaged in melee, it will do only half damage (rounded down).
 > In other words, the soldier won't die.
