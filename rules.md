@@ -173,10 +173,11 @@ Once the attack phase is over, it's time to reinforce your troops and buildings.
 2. play troops / buildings
 3. discard excess cards if you have more than 7 cards in your hand
 
-A building in your hand can be played anytime. If you have already 7 buildings on the table, choose which one should be replaced and discard it.
+Buildings in your hand can be played during this phase. If you have already 7 buildings on the table, simply choose which one should be replaced and discard it.
 
-Troops can have a variety of requirements (or none). A frequent one is their cost, in gold. The cumulative cost of troops on the battlefield should not exceed the gold production of your buildings. You can play as many troops as you want as long as this limit is not reached. On the opposite, if your buildings do not cover the gold cost of your troops for whatever reasons, you have to discard some from the battlefield.
+Troops can be played too. They may have a variety of requirements, or none, but a frequent one is their gold cost. This is their "salary", not their "hiring" cost. The cumulative cost of troops on the battlefield should not exceed the gold production of your buildings. You can play as many troops as you want as long as this limit is not reached. On the opposite, if your buildings do not cover the gold cost of your troops for whatever reasons, you have to discard some from the battlefield.
 
+> If you have a farm producing +1 gold and a mine producing +3 gold, the cumulative cost of all your troops on the battlefield must no exceed 4. Choose wisely.
 
 A few thoughts
 --------------
