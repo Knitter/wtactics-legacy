@@ -138,7 +138,7 @@ Example:
 
 ### Spells
 
-Spells can be played any time during the attack phase, but only by the attacker. They cannot be countered either.
+Spells can be played any time during the attack phase. But they cannot be countered or interrupt an attack.
 Since there is no mana, the cost of powerful spells is either discarding some cards, or requiring a specific building. 
 
 ### Blocking
