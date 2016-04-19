@@ -70,7 +70,7 @@ Buildings can perform a variety of roles:
 - enable the usage of specific troops or spells (example: `Magi Tower - enables you to play Archmages, Armageddon, ...`)
 - "fancy effects" (example: `Necrotic Graveyard - each turn, resurrect the topmost undead of cost 1 from your graveyard`)
 
-...it's a combo of MTG lands and artefacts, except that they are limited to 7 maximum, so you have to choose wisely.
+It's a combo of MTG lands and artefacts, except that they are limited to 7 maximum, so you have to choose wisely.
 It's also up to the player to build decks which provide synergies between buildings and troops.
 
 The goal
@@ -93,9 +93,11 @@ This is the maximum amount of cards you can have:
 The start
 ---------
 
-At the beginning, you start with:
-- 7 empty houses, represented by face down cards in the "buildings" area
-- 5 cards in your hand
+At the beginning, you start with 5 cards in your hand and 7 empty houses, represented by face down cards in the "buildings" area.
+
+> Remember: when all your buildings are destroyed, you loose.
+> However, they provide no benefit and are meant to be replaced by "normal" buildings played from your hand as the game progresses.
+
 
 The turns
 ---------
@@ -134,6 +136,10 @@ Example:
 > Alice now attacks with her 2/2 soldier the 3/1 Shaman. Since the Shaman is a ranged attacker engaged in melee, it will do only half damage (rounded down).
 > In other words, the soldier won't die.
 
+### Spells
+
+Spells can be played any time during the attack phase, but only by the attacker. They cannot be countered either.
+Since there is no mana, the cost of powerful spells is either discarding some cards, or requiring a specific building. 
 
 ### Blocking
 
@@ -157,3 +163,16 @@ The troops strength doesn't matter. A 7/7 Dragon or a 1/1 Peasan would both dest
 The first with a fire breath, the latter with a fire torch. The result is the same.
 If all buildings are destroyed, you win the game.
 Notice that the enemy can still build new buildings afterwards and might still turn the table.
+
+The reinforcement phase
+-----------------------
+
+Once the attack phase is over, it's time to reinforce your troops and buildings.
+
+1. draw two cards (except on the first turn of the starting player)
+2. play troops / buildings
+3. discard excess cards if you have more than 7 cards in your hand
+
+A building in your hand can be played anytime. If you have already 7 buildings on the table, choose which one should be replaced and discard it.
+
+Troops in your hand can have a variety of requirements (or none). A frequent one is their cost, in gold. The cumulative cost of troops on the battlefield should not exceed the gold production of your buildings. If your buildings do not cover the gold cost of your troops, you have to discard it.
