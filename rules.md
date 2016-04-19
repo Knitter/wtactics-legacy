@@ -175,4 +175,18 @@ Once the attack phase is over, it's time to reinforce your troops and buildings.
 
 A building in your hand can be played anytime. If you have already 7 buildings on the table, choose which one should be replaced and discard it.
 
-Troops in your hand can have a variety of requirements (or none). A frequent one is their cost, in gold. The cumulative cost of troops on the battlefield should not exceed the gold production of your buildings. If your buildings do not cover the gold cost of your troops, you have to discard it.
+Troops can have a variety of requirements (or none). A frequent one is their cost, in gold. The cumulative cost of troops on the battlefield should not exceed the gold production of your buildings. You can play as many troops as you want as long as this limit is not reached. On the opposite, if your buildings do not cover the gold cost of your troops for whatever reasons, you have to discard some from the battlefield.
+
+
+A few thoughts
+--------------
+
+* The bulding mechanics offer a wide variety of play ways:
+	* focus on gold producing to have many or strong troops
+	* focus on bonuses to boost specific troops
+	* focus on some special effects / combos in your deck
+	* ...or many other things. You just can't have it all since you're limited to 7.
+* Buildings could have other buildings as requirement (`city - requirement: discard 3 of your villages - huge bonus`)
+* You could have spells like `Greedy: the selected troops wants one more gold` ...which could create problems for the opponents, perhaps even needing to discard a troop because of that.
+* Buildings providing some cool bonus might even consume gold too, or provide more card draws
+* Actions (attacks/spells) are deterministic and cannot be countered. Some might like it, some not. 
