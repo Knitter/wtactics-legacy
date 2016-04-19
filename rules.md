@@ -185,8 +185,7 @@ A few thoughts
 	* focus on gold producing to have many or strong troops
 	* focus on bonuses to boost specific troops
 	* focus on some special effects / combos in your deck
-	* ...or many other things. You just can't have it all since you're limited to 7 ...and you have to draw/play them first
+	* ...or many other things. You just can't have it all since you can't have more than 7 on the table
 * Buildings could have other buildings as requirement (`city - requirement: discard 3 of your villages - huge bonus`)
-* You could have spells like `Greedy: the selected troops wants one more gold` ...which could create problems for the opponents, perhaps even needing to discard a troop because of that.
-* Buildings providing some cool bonus might even consume gold too, or provide more card draws
+* You could have spells like `Greedy: the selected troops wants one more gold (cost increased by 1)` ...which could create problems for the opponents, perhaps even needing to discard a troop because of that.
 * Actions (attacks/spells) are deterministic and cannot be countered. Some might like it, some not. 
