@@ -14,10 +14,8 @@ Since it's very different than usual CCGs like MTG,
 it is important to first understand how the rules differ
 in order to avoid misconceptions.
 
-- there is rarely a need to "tap" a card:
-	- troops can attack and defend in the same turn
-	- you don't "pay" anything to put a card into play (instead your resources limit the amount of troops you can have in play)
-- there is no mana of different colors
+- there are no resources/mana
+- attacking troops can also defend afterwards
 - troops select what other troops they are attacking 
 - if you attack or cast a spell, it's applied immediately. It can't be interrupted/countered. 
 
@@ -28,13 +26,13 @@ The "table"
 -----------
 
 ```
------------------------------------
-|   Front row troops  | Graveyard |
------------------------------------
-|    Back row troops  |
------------------------------------
-|       Buildings     | Deck      |
------------------------------------
+-----------------------------
+|       Front row troops    |
+-----------------------------
+|       Back row troops     |
+-----------------------------
+| Cities | Graveyard | Deck |
+-----------------------------
 ```
 
 
@@ -62,42 +60,26 @@ For example, ranged troops in the back row could bring down front row troops wit
 However, skirmish/flying/sharpshooter troops could bring down the frail archers easely.
 But in both cases, it would be wise to have some tough troops on the front row to protect the others.
 
-### Buildings
+### Cities
 
-Buildings can perform a variety of roles:
-- produce gold (which limits how many troops you can have deployed)
-- provide some bonus (example: `Elven Bowmaker - attack of elven archers is increased by 1`)
-- enable the usage of specific troops or spells (example: `Magi Tower - enables you to play Archmages, Armageddon, ...`)
-- "fancy effects" (example: `Necrotic Graveyard - each turn, resurrect the topmost undead of cost 1 from your graveyard`)
+Your cities deck is a face down deck of 7 cards (or more?), with the first card always turned up, your current city.
+When the ennemies attacks and you have no more defending troops, the current city is pillaged. Discard it and turn up the next city.
+You loose when your last city has been pillaged.
 
-It's a combo of MTG lands and artefacts, except that they are limited to 7 maximum, so you have to choose wisely.
-It's also up to the player to build decks which provide synergies between buildings and troops.
+Cities typically also provide some sort of bonus or effect.
 
 The goal
 --------
 
-You win by destroying all the buildings of the ennemy.
-
-If you can't draw because your deck is empty, destroy one building per card you should draw.
-
-The magic number: 7
--------------------
-
-If you wonder how many "whatever" you can have, it's probably "7".
-This is the maximum amount of cards you can have:
-- in your hand
-- in the front row
-- in the back row
-- in the buildings
+You win by destroying all the cities of the ennemy.
+If you can't draw because your deck is empty, destroy one city.
 
 The start
 ---------
 
-At the beginning, you start with 5 cards in your hand and 7 empty houses, represented by face down cards in the "buildings" area.
-
-> Remember: when all your buildings are destroyed, you loose.
-> However, they provide no benefit and are meant to be replaced by "normal" buildings played from your hand as the game progresses.
-
+At the beginning, you start with no cards in your hand, and 7 cities face down.
+The first player starts the first turn by drawing a single card.
+The second player will draw two cards, like all forthcoming turns.
 
 The turns
 ---------
@@ -111,11 +93,13 @@ First, the *attack phase* where you can attack and use spells.
 Then, the *reinforcement phase*:
 
 1. draw two cards (except on the first turn of the starting player)
-2. play troops / buildings
+2. play troops
 3. discard excess cards if you have more than 7 cards in your hand
 
 The attack phase
 ----------------
+
+### *This is probably gonna be edited*
 
 ### Attacking
 
@@ -158,35 +142,16 @@ Each troop will obtain damage according to the sum of the attack of troops targe
 ### If all enemy troops are cleared...
 
 Then it's time to attack the buildings!
-Each attacker troop *not yet engaged* can now target an enemy building and destroy it.
-The troops strength doesn't matter. A 7/7 Dragon or a 1/1 Peasan would both destroy a single building each.
-The first with a fire breath, the latter with a fire torch. The result is the same.
-If all buildings are destroyed, you win the game.
-Notice that the enemy can still build new buildings afterwards and might still turn the table.
+Each attacker troop *not yet engaged* can now target the enemy city.
+If their combined strength is greater than its defenses, it's pillaged/destroyed and the owner can draw 2 cards, the fleeing survivors.
 
-The reinforcement phase
------------------------
+Card types
+----------
 
-Once the attack phase is over, it's time to reinforce your troops and buildings.
+### Cities
 
-1. draw two cards (except on the first turn of the starting player)
-2. play troops / buildings
-3. discard excess cards if you have more than 7 cards in your hand
+### Troops
 
-Buildings in your hand can be played during this phase. If you have already 7 buildings on the table, simply choose which one should be replaced and discard it.
+### Spells
 
-Troops can be played too. They may have a variety of requirements, or none, but a frequent one is their gold cost. This is their "salary", not their "hiring" cost. The cumulative cost of troops on the battlefield should not exceed the gold production of your buildings. You can play as many troops as you want as long as this limit is not reached. On the opposite, if your buildings do not cover the gold cost of your troops for whatever reasons, you have to discard some from the battlefield.
-
-> If you have a farm producing +1 gold and a mine producing +3 gold, the cumulative cost of all your troops on the battlefield must no exceed 4. Choose wisely.
-
-A few thoughts
---------------
-
-* The bulding mechanics offer a wide variety of play ways:
-	* focus on gold producing to have many or strong troops
-	* focus on bonuses to boost specific troops
-	* focus on some special effects / combos in your deck
-	* ...or many other things. You just can't have it all since you can't have more than 7 on the table
-* Buildings could have other buildings as requirement (`city - requirement: discard 3 of your villages - huge bonus`)
-* You could have spells like `Greedy: the selected troops wants one more gold (cost increased by 1)` ...which could create problems for the opponents, perhaps even needing to discard a troop because of that.
-* Actions (attacks/spells) are deterministic and cannot be countered. Some might like it, some not. 
+### Promotions
