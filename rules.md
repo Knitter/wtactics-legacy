@@ -99,7 +99,9 @@ Then, the *reinforcement phase*:
 The attack phase
 ----------------
 
-### *This is probably gonna be edited*
+### *TODO*
+
+> as it is currently, it feels "not simple enough" and unbalanced in the favor of the attacker and ranged troops.
 
 ### Attacking
 
@@ -155,3 +157,5 @@ Card types
 ### Spells
 
 ### Promotions
+
+When a unit has attacked, survived and you have the corresponding promotion card in your hand, you can replace the troop with the promoted one.
