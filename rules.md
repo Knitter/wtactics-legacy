@@ -158,4 +158,4 @@ Card types
 
 ### Promotions
 
-When a unit has attacked, survived and you have the corresponding promotion card in your hand, you can replace the troop with the promoted one.
+After a troop has successfully attacked or defended, and you have the corresponding promotion card in your hand, you can replace the troop with the promoted one.
